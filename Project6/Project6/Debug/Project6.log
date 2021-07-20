@@ -1,0 +1,23 @@
+﻿生成启动时间为 2021/4/3 17:34:21。
+     1>项目“D:\hh\Project6\Project6\Project6.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt SeqList.c test.c
+         test.c
+     1>d:\hh\project6\project6\test.c(13): warning C4020: “SeqListPopFront”: 实参太多
+     1>d:\hh\project6\project6\test.c(14): warning C4020: “SeqListPopFront”: 实参太多
+     1>d:\hh\project6\project6\test.c(15): warning C4020: “SeqListPopFront”: 实参太多
+     1>d:\hh\project6\project6\test.c(16): warning C4020: “SeqListPopFront”: 实参太多
+     1>d:\hh\project6\project6\test.c(44): warning C4013: “SeqListDeatory”未定义；假设外部返回 int
+     1>d:\hh\project6\project6\test.c(99): error C2143: 语法错误 : 缺少“;”(在“字符串”的前面)
+     1>d:\hh\project6\project6\test.c(99): warning C4550: 表达式计算为缺少参数列表的函数
+     1>d:\hh\project6\project6\test.c(99): error C2059: 语法错误:“)”
+     1>d:\hh\project6\project6\test.c(103): error C2198: “SeqListPushBack”: 用于调用的参数太少
+     1>d:\hh\project6\project6\test.c(104): error C2198: “SeqListPushFront”: 用于调用的参数太少
+     1>d:\hh\project6\project6\test.c(114): error C2059: 语法错误:“return”
+         SeqList.c
+         正在生成代码...
+     1>已完成生成项目“D:\hh\Project6\Project6\Project6.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.55
