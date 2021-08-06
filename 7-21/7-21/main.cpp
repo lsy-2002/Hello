@@ -7,54 +7,54 @@ using namespace std;
 //{
 //	//管理字符串的数组，可以增删查改
 //	//字符串数组的结尾有"\0"
-//	class string
-//	{
-//	public:
-//		string(const char* str = "")
-//			:_str(new char[strlen(str) + 1])
-//		{
-//			strcpy(_str, str);
-//		}
-//		//传统写法
-//		/*string(const string& s)
-//			:_str(new char[strlen(s._str)+1])
-//		{
-//			strcpy(_str, s._str);
-//		}
-//		string operator=(const string&s)
-//		{
-//			if (this != &s)
-//			{
-//				delete[]_str;
-//				_str = new char[strlen(s._str) + 1];
-//				strcpy(_str, s._str);
-//			}
-//			return *this;
-//		}*/
-//		//现代写法
-//		string (const string& s)
-//			:_str(nullptr)
-//		{
-//			string tmp(s._str);//构造
-//			swap(_str, tmp._str);
-//		}
-//		string& operator= (string s)
-//		{
-//			swap(_str, s._str);
-//			return *this;
-//		}
-//		~string()
-//		{
-//			delete[] _str;
-//			_str = nullptr;
-//		}
-//		const char* c_str()
-//		{
-//			return _str;
-//		}
-//	private:
-//		char* _str;
-//	};
+	//class string
+	//{
+	//public:
+	//	string(const char* str = "")
+	//		:_str(new char[strlen(str) + 1])
+	//	{
+	//		strcpy(_str, str);
+	//	}
+		//传统写法
+		/*string(const string& s)
+			:_str(new char[strlen(s._str)+1])
+		{
+			strcpy(_str, s._str);
+		}
+		string operator=(const string&s)
+		{
+			if (this != &s)
+			{
+				delete[]_str;
+				_str = new char[strlen(s._str) + 1];
+				strcpy(_str, s._str);
+			}
+			return *this;
+		}*/
+		//现代写法
+		//string (const string& s)
+		//	:_str(nullptr)
+		//{
+		//	string tmp(s._str);//构造
+		//	swap(_str, tmp._str);
+		//}
+		//string& operator= (string s)
+		//{
+		//	swap(_str, s._str);
+		//	return *this;
+		//}
+		/*~string()
+		{
+			delete[] _str;
+			_str = nullptr;
+		}
+		const char* c_str()
+		{
+			return _str;
+		}
+	private:
+		char* _str;
+	};*/
 //	void test_string1()
 //	{
 //		string s1("hello world");
@@ -450,6 +450,14 @@ namespace S
 }
 int main()
 {
-	S::test3();
+	std::string s1("hello world");
+	S::string s2("hello world");
+	
+	cout << sizeof(s1) << endl;//28 Linux下是8
+	//private: char _Buf[16]//小于16放到Buf里
+	//         char* _Ptr
+	//         size_t _Mysize
+	//         size_t _MyRes //相当于capacity
+	cout << sizeof(s2) << endl;//12 //先放size大小,capacity大小然后是内容
 	return 0;
 }
