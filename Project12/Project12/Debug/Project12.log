@@ -1,0 +1,26 @@
+﻿生成启动时间为 2021/5/1 9:41:45。
+     1>项目“D:\hh\Project12\Project12\Project12.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt BinaryTree.c
+         BinaryTree.c
+     1>d:\hh\project12\project12\binarytree.c(98): error C2275: “BTNode”: 将此类型用作表达式非法
+                 d:\hh\project12\project12\binarytree.c(12) : 参见“BTNode”的声明
+     1>d:\hh\project12\project12\binarytree.c(98): error C2065: “lret”: 未声明的标识符
+     1>d:\hh\project12\project12\binarytree.c(99): error C2065: “lret”: 未声明的标识符
+     1>d:\hh\project12\project12\binarytree.c(100): error C2065: “lret”: 未声明的标识符
+     1>d:\hh\project12\project12\binarytree.c(100): warning C4047: “return”:“BTNode *”与“int”的间接级别不同
+     1>d:\hh\project12\project12\binarytree.c(101): error C2275: “BTNode”: 将此类型用作表达式非法
+                 d:\hh\project12\project12\binarytree.c(12) : 参见“BTNode”的声明
+     1>d:\hh\project12\project12\binarytree.c(101): error C2065: “rret”: 未声明的标识符
+     1>d:\hh\project12\project12\binarytree.c(102): error C2065: “rret”: 未声明的标识符
+     1>d:\hh\project12\project12\binarytree.c(103): error C2065: “rret”: 未声明的标识符
+     1>d:\hh\project12\project12\binarytree.c(103): warning C4047: “return”:“BTNode *”与“int”的间接级别不同
+     1>d:\hh\project12\project12\binarytree.c(139): warning C4047: “初始化”:“BTNode *”与“QDataType”的间接级别不同
+     1>d:\hh\project12\project12\binarytree.c(158): warning C4047: “初始化”:“BTNode *”与“QDataType”的间接级别不同
+     1>d:\hh\project12\project12\binarytree.c(167): warning C4047: “初始化”:“BTNode *”与“QDataType”的间接级别不同
+     1>d:\hh\project12\project12\binarytree.c(172): warning C4550: 表达式计算为缺少参数列表的函数
+     1>已完成生成项目“D:\hh\Project12\Project12\Project12.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.12
