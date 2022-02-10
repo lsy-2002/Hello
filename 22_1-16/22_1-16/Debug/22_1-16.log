@@ -1,0 +1,19 @@
+﻿生成启动时间为 2022/2/7 10:14:03。
+     1>项目“D:\hh\22_1-16\22_1-16\22_1-16.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\hh\22_1-16\22_1-16\test.cpp(5): error C2059: 语法错误:“;”
+     1>d:\hh\22_1-16\22_1-16\test.cpp(75): error C2011: “Singletion”:“class”类型重定义
+                 d:\hh\22_1-16\22_1-16\test.cpp(50) : 参见“Singletion”的声明
+     1>d:\hh\22_1-16\22_1-16\test.cpp(100): error C2027: 使用了未定义类型“Singletion”
+                 d:\hh\22_1-16\22_1-16\test.cpp(50) : 参见“Singletion”的声明
+     1>d:\hh\22_1-16\22_1-16\test.cpp(101): error C2039: “mutex”: 不是“std”的成员
+     1>d:\hh\22_1-16\22_1-16\test.cpp(101): error C2146: 语法错误: 缺少“;”(在标识符“Singletion”的前面)
+     1>d:\hh\22_1-16\22_1-16\test.cpp(101): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\hh\22_1-16\22_1-16\test.cpp(101): error C2079: “_mtx”使用未定义的 class“Singletion”
+     1>已完成生成项目“D:\hh\22_1-16\22_1-16\22_1-16.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.50
